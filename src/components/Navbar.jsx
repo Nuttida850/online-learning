@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="w-full">
-      <div className="max-w-7xl mx-auto p-4 md:px-0 flex flex-col md:flex-row md:justify-between md:items-center">
+      <div className="max-w-7xl mx-auto p-5 lg:px-0 flex flex-col md:flex-row md:justify-between md:items-center">
         <div className="justify-start">
           <img src={logo} alt="" />
         </div>
@@ -35,7 +35,7 @@ function Navbar() {
           <li>
             <a
               href="#"
-              className="inline-flex py-2 px-7 bg-white rounded-full text-[#6C6C6C]"
+              className="btn btn-white"
             >
               Login
             </a>
@@ -43,7 +43,7 @@ function Navbar() {
           <li>
             <a
               href="#"
-              className="inline-flex py-2 px-7 bg-[#F48C06] rounded-full text-white"
+              className="btn btn-orange"
             >
               Sign Up
             </a>

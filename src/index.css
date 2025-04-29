@@ -15,4 +15,19 @@
   .btn-orange {
     @apply bg-[#F48C06] text-white;
   }
+  @keyframes loop-animate {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .animate-loop{
+    animation: loop-animate 20s linear infinite;
+  }
+  .bg-linear{
+    overflow: hidden;
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  }
 }

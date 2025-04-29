@@ -5,16 +5,16 @@ import bg from '../assets/images/bg-header.png'
 function Header() {
   return (
     <div className="py-10">
-      <div className="absolute top-0 -z-10">
+      <div className="absolute top-0 -z-10 flex max-h-[800px] max-w-full">
         <img src={bg} alt="" />
       </div>
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2  gap-5 p-5 lg:p-0">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 p-5 lg:p-0">
         <div className="mt-20">
-          <h1 className="text-[54px] text-[#2F327D] font-bold">
+          <h1 className="text-5xl text-[#2F327D] font-bold">
             <span className="text-[#F48C06]">Studying</span> Online is now much
             easier
           </h1>
-          <p className="text-2xl my-10">
+          <p className="text-lg my-10 text-[#464646]">
             Skilline is an interesting platform that will teach you in more an
             interactive way
           </p>
@@ -30,7 +30,7 @@ function Header() {
             </a>
           </div>
         </div>
-        <div >
+        <div>
           <img src={headerImg} alt="" />
         </div>
       </div>

@@ -114,7 +114,7 @@ function Feature() {
             </p>
           </div>
         </div>
-        <a href="#" className="px-6 py-5 rounded-full border-1 border-[#F48C06] text-[#F48C06] text-xl">See more features</a>
+        <a href="#" className="inline-flex px-6 py-5 rounded-full border-1 border-[#F48C06] text-[#F48C06] text-xl hover:-translate-y-2 hover:bg-[#F48C06] hover:text-white transition-all duration-300 ease-in-out">See more features</a>
       </div>
     </div>
   );

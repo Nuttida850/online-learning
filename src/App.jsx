@@ -6,6 +6,8 @@ import Navbar from "./components/navbar";
 import Skilline from "./components/Skilline";
 import Software from "./components/Software";
 import Feature from "./components/Feature";
+import Integrations from "./components/Integrations";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Software />
       <Skilline />
       <Feature />
+      <Integrations />
+      <Testimonial />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
-import headerImg from '../assets/images/header-pic.png'
-import bg from '../assets/images/bg-header.png'
+import headerImg from "../assets/images/header-pic.png";
+import bg from "../assets/images/bg-header.png";
 function Header() {
   return (
     <div className="py-10">
@@ -19,12 +19,16 @@ function Header() {
             interactive way
           </p>
           <div className="flex">
-            <a href="#" className="btn btn-orange text-2xl mr-5 items-center">
+            <a
+              href="#"
+              className="btn btn-orange text-2xl mr-5 items-center 
+            hover:-translate-y-2 hover:bg-white hover:text-[#F48C06] transition-all duration-300 ease-in-out"
+            >
               Join for free
             </a>
-            <a href="#" className="text-2xl inline-flex items-center">
+            <a href="#" className="text-2xl inline-flex items-center group">
               <span className="rounded-full w-15 h-15 bg-white mr-4 p-5">
-                <FaPlay className="text-[#23BDEE]" />
+                <FaPlay className="text-[#23BDEE] group-hover:-rotate-15" />
               </span>
               Watch how it works
             </a>

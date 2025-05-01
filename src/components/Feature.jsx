@@ -29,9 +29,9 @@ function Feature() {
               A <span className="text-[#F48C06]">user interface</span> designed
               for the classroom
             </h3>
-            <ul className="text-[#696984] text-xl space-y-5 mt-10">
-              <li className="flex items-center">
-                <span className="mr-10 p-3 rounded-full shadow-lg scale-[1.5]">
+            <ul className="text-[#696984] text-xl space-y-10 mt-10 ">
+              <li className="flex items-center group">
+                <span className="mr-10 p-3 rounded-full shadow-lg scale-[1.5] group-hover:scale-[2] transition-all duration-100 group-hover:animate-(--animate-rotateX)">
                   <img src={icon04} alt="" />
                 </span>
                 <p>
@@ -39,16 +39,16 @@ function Feature() {
                   Podium space.
                 </p>
               </li>
-              <li className="flex items-center">
-                <span className="mr-10 p-3 rounded-full shadow-lg scale-[1.5]">
+              <li className="flex items-center group">
+                <span className="mr-10 p-3 rounded-full shadow-lg scale-[1.5] group-hover:scale-[2] transition-all duration-100 group-hover:animate-(--animate-rotateX)">
                   <img src={icon05} alt="" />
                 </span>
                 <p>
                   TA’s and presenters can be moved to the front of the class.
                 </p>
               </li>
-              <li className="flex items-center">
-                <span className="mr-10 p-3 rounded-full shadow-lg scale-[1.5]">
+              <li className="flex items-center group">
+                <span className="mr-10 p-3 rounded-full shadow-lg scale-[1.5] group-hover:scale-[2] transition-all duration-100 group-hover:animate-(--animate-rotateX)">
                   <img src={icon06} alt="" />
                 </span>
                 <p>

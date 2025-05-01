@@ -6,8 +6,8 @@ function Integrations() {
       <div className="max-w-7xl mx-auto p-5 lg:p-0  items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-40 items-center">
           <img src={tools} alt="" />
-          <div className="">
-            <div className="flex items-center mb-5">
+          <div className="text-center md:text-left">
+            <div className="flex items-center mb-5 justify-center md:justify-start">
               <div className="w-20 h-0.5 bg-[#525596] mr-5"></div>
               <h4 className="text-[#525596] tracking-widest text-lg">
                 INTEGRATIONS

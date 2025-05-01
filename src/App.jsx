@@ -8,6 +8,8 @@ import Software from "./components/Software";
 import Feature from "./components/Feature";
 import Integrations from "./components/Integrations";
 import Testimonial from "./components/Testimonial";
+import News from "./components/News";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Feature />
       <Integrations />
       <Testimonial />
+      <News />
+      <Footer />
     </>
   );
 }

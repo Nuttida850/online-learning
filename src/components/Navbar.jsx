@@ -35,7 +35,7 @@ function Navbar() {
           <li>
             <a
               href="#"
-              className="btn btn-white"
+              className="btn btn-white hover:-translate-y-2 hover:bg-[#F48C06] hover:text-white transition-all duration-300 ease-in-out"
             >
               Login
             </a>
@@ -43,7 +43,7 @@ function Navbar() {
           <li>
             <a
               href="#"
-              className="btn btn-orange"
+              className="btn btn-orange hover:-translate-y-2 hover:bg-white hover:text-[#F48C06] transition-all duration-300 ease-in-out"
             >
               Sign Up
             </a>

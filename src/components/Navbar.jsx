@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logos/logo-black.png";
 import { FaBars } from "react-icons/fa6";
+import { GiCancel } from "react-icons/gi";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#fff4e3]">
       <div className="max-w-7xl mx-auto p-5 lg:px-0 flex flex-col md:flex-row md:justify-between md:items-center">
         <div className="justify-start">
           <img src={logo} alt="" />
@@ -50,7 +51,11 @@ function Navbar() {
           </li>
         </ul>
         <div className="md:hidden absolute right-10 top-10 text-3xl">
-          <FaBars onClick={toggleMenu} />
+          {!menuOpen ? (
+            <FaBars onClick={toggleMenu} className="active:rotate-90  transition-all 0.5s " />
+          ) : (
+            <GiCancel onClick={toggleMenu} className="active:rotate-90 transition-all 0.5s"  />
+          )}
         </div>
       </div>
     </div>
